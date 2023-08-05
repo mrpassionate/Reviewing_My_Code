@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int a=5;
-    int* pr;
+    int* pr; // you can also declare pointer by this ' int *pr '
     pr=&a;
     a=10;
    // *pr=10; (you can also change value by this method)
